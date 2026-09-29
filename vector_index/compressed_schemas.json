@@ -1,0 +1,217 @@
+{
+  "schemas": [
+    {
+      "component_id": "BarcodeScannerInput",
+      "capability_card": "[BarcodeScannerInput] (shopkeeper) | Rapid POS barcode scanning input field with automatic product lookup, camera toggle simulation, sound effect feedback, and cart integration. | props: ['productCatalog', 'onProductScanned', 'className'] | caps: react",
+      "minimal_props": [
+        "productCatalog",
+        "onProductScanned",
+        "className"
+      ],
+      "token_count_raw": 509,
+      "token_count_compressed": 30,
+      "compression_ratio": 0.9410609037328095
+    },
+    {
+      "component_id": "CustomerUdharKhata",
+      "capability_card": "[CustomerUdharKhata] (shopkeeper) | Local retail customer credit ledger (Udhar Khata) tracking individual balances, credit limits, repayment installments, and WhatsApp payment reminder dispatch. | props: ['initialCustomers', 'onSendReminder', 'className'] | caps: react",
+      "minimal_props": [
+        "initialCustomers",
+        "onSendReminder",
+        "className"
+      ],
+      "token_count_raw": 558,
+      "token_count_compressed": 30,
+      "compression_ratio": 0.946236559139785
+    },
+    {
+      "component_id": "DailyCashLedger",
+      "capability_card": "[DailyCashLedger] (shopkeeper) | Small business cashbook and daily transaction ledger tracking cash, UPI, and card payments with running balance and opening/closing cash tally. | props: ['initialOpeningCash', 'initialEntries', 'onTallyClose', 'className'] | caps: react",
+      "minimal_props": [
+        "initialOpeningCash",
+        "initialEntries",
+        "onTallyClose",
+        "className"
+      ],
+      "token_count_raw": 708,
+      "token_count_compressed": 32,
+      "compression_ratio": 0.9548022598870056
+    },
+    {
+      "component_id": "DailySalesReceipt",
+      "capability_card": "[DailySalesReceipt] (shopkeeper) | POS customer tax invoice and receipt generator with itemized line items, GST breakdown, customer name, payment status, and print slip layout. | props: ['storeName', 'storeGst', 'initialItems', 'defaultTaxRate', 'onPrintInvoice', 'className'] | caps: react",
+      "minimal_props": [
+        "storeName",
+        "storeGst",
+        "initialItems",
+        "defaultTaxRate",
+        "onPrintInvoice",
+        "className"
+      ],
+      "token_count_raw": 663,
+      "token_count_compressed": 35,
+      "compression_ratio": 0.947209653092006
+    },
+    {
+      "component_id": "ExpiryDateAlerts",
+      "capability_card": "[ExpiryDateAlerts] (shopkeeper) | Perishable inventory and batch expiration tracking board with color-coded shelf-life alerts, clearance discount triggers, and wastage prevention. | props: ['initialBatches', 'onApplyClearanceDiscount', 'className'] | caps: react",
+      "minimal_props": [
+        "initialBatches",
+        "onApplyClearanceDiscount",
+        "className"
+      ],
+      "token_count_raw": 626,
+      "token_count_compressed": 28,
+      "compression_ratio": 0.9552715654952076
+    },
+    {
+      "component_id": "InventoryStockTable",
+      "capability_card": "[InventoryStockTable] (shopkeeper) | Retail inventory stock tracking table featuring SKU management, real-time quantity monitoring, low-stock threshold triggers, and fast restock increments. | props: ['initialItems', 'onRestockOrder', 'className'] | caps: react",
+      "minimal_props": [
+        "initialItems",
+        "onRestockOrder",
+        "className"
+      ],
+      "token_count_raw": 680,
+      "token_count_compressed": 29,
+      "compression_ratio": 0.9573529411764706
+    },
+    {
+      "component_id": "ProfitMarginCalculator",
+      "capability_card": "[ProfitMarginCalculator] (shopkeeper) | Retail profit margin and pricing calculator analyzing cost price, selling price, GST tax rates, markup percentages, and net unit margins. | props: ['initialCost', 'initialSellingPrice', 'initialGstRate', 'onCalculationChange', 'className'] | caps: react",
+      "minimal_props": [
+        "initialCost",
+        "initialSellingPrice",
+        "initialGstRate",
+        "onCalculationChange",
+        "className"
+      ],
+      "token_count_raw": 525,
+      "token_count_compressed": 33,
+      "compression_ratio": 0.9371428571428572
+    },
+    {
+      "component_id": "SupplierContactList",
+      "capability_card": "[SupplierContactList] (shopkeeper) | Wholesale distributor and vendor directory with direct contact links, pending balance ledgers, delivery schedule logs, and payment terms. | props: ['initialSuppliers', 'onCallSupplier', 'className'] | caps: react",
+      "minimal_props": [
+        "initialSuppliers",
+        "onCallSupplier",
+        "className"
+      ],
+      "token_count_raw": 460,
+      "token_count_compressed": 29,
+      "compression_ratio": 0.9369565217391305
+    },
+    {
+      "component_id": "AssignmentTracker",
+      "capability_card": "[AssignmentTracker] (student) | Academic deadline and homework tracker supporting course filtering, due date countdown, urgency indicators, and submission status management. | props: ['initialAssignments', 'onAssignmentComplete', 'className'] | caps: react",
+      "minimal_props": [
+        "initialAssignments",
+        "onAssignmentComplete",
+        "className"
+      ],
+      "token_count_raw": 671,
+      "token_count_compressed": 28,
+      "compression_ratio": 0.9582712369597616
+    },
+    {
+      "component_id": "AttendanceTracker",
+      "capability_card": "[AttendanceTracker] (student) | College course attendance threshold monitor calculating percentage, bunk allowance, and mandatory classes needed to sustain 75% or 80% criteria. | props: ['initialSubjects', 'targetPercentage', 'onAttendanceAlert', 'className'] | caps: react",
+      "minimal_props": [
+        "initialSubjects",
+        "targetPercentage",
+        "onAttendanceAlert",
+        "className"
+      ],
+      "token_count_raw": 550,
+      "token_count_compressed": 31,
+      "compression_ratio": 0.9436363636363636
+    },
+    {
+      "component_id": "CitationGenerator",
+      "capability_card": "[CitationGenerator] (student) | Academic bibliography and citation formatting tool generating APA 7th, MLA 9th, Chicago 17th, and IEEE citations from source metadata. | props: ['initialMetadata', 'defaultStyle', 'onCopyCitation', 'className'] | caps: react",
+      "minimal_props": [
+        "initialMetadata",
+        "defaultStyle",
+        "onCopyCitation",
+        "className"
+      ],
+      "token_count_raw": 606,
+      "token_count_compressed": 31,
+      "compression_ratio": 0.9488448844884488
+    },
+    {
+      "component_id": "FlashcardDeck",
+      "capability_card": "[FlashcardDeck] (student) | Spaced repetition flashcard study tool with flip card animations, difficulty grading, deck category filtering, and retention mastery progress tracking. | props: ['initialCards', 'title', 'onFinishReview', 'className'] | caps: react",
+      "minimal_props": [
+        "initialCards",
+        "title",
+        "onFinishReview",
+        "className"
+      ],
+      "token_count_raw": 641,
+      "token_count_compressed": 31,
+      "compression_ratio": 0.9516380655226209
+    },
+    {
+      "component_id": "FormulaSheet",
+      "capability_card": "[FormulaSheet] (student) | STEM mathematical and scientific formula quick-reference sheet with LaTeX representations, category filters, fast search, and one-click clipboard copying. | props: ['initialFormulas', 'defaultCategory', 'onCopyFormula', 'className'] | caps: react",
+      "minimal_props": [
+        "initialFormulas",
+        "defaultCategory",
+        "onCopyFormula",
+        "className"
+      ],
+      "token_count_raw": 619,
+      "token_count_compressed": 30,
+      "compression_ratio": 0.9515347334410339
+    },
+    {
+      "component_id": "GradeTracker",
+      "capability_card": "[GradeTracker] (student) | Academic grade and GPA calculator enabling students to record course grades, credit weights, calculate SGPA and cumulative CGPA, and project target grades. | props: ['initialCourses', 'scale', 'targetGpa', 'onGradeUpdate', 'className'] | caps: react",
+      "minimal_props": [
+        "initialCourses",
+        "scale",
+        "targetGpa",
+        "onGradeUpdate",
+        "className"
+      ],
+      "token_count_raw": 646,
+      "token_count_compressed": 35,
+      "compression_ratio": 0.9458204334365325
+    },
+    {
+      "component_id": "NotesEditor",
+      "capability_card": "[NotesEditor] (student) | Rich markdown notes editor with live preview toggle, word and character counters, subject tagging, auto-save status indicator, and plain text export. | props: ['initialDocument', 'onSave', 'className'] | caps: react",
+      "minimal_props": [
+        "initialDocument",
+        "onSave",
+        "className"
+      ],
+      "token_count_raw": 474,
+      "token_count_compressed": 32,
+      "compression_ratio": 0.9324894514767933
+    },
+    {
+      "component_id": "PomodoroTimer",
+      "capability_card": "[PomodoroTimer] (student) | A productivity focus timer implementing the Pomodoro technique with customizable work/break intervals, session tracking, audio alerts, and task tag association. | props: ['initialWorkMinutes', 'initialShortBreakMinutes', 'initialLongBreakMinutes', 'longBreakInterval', 'autoStartBreaks', 'onSessionComplete', 'className'] | caps: react",
+      "minimal_props": [
+        "initialWorkMinutes",
+        "initialShortBreakMinutes",
+        "initialLongBreakMinutes",
+        "longBreakInterval",
+        "autoStartBreaks",
+        "onSessionComplete",
+        "className"
+      ],
+      "token_count_raw": 648,
+      "token_count_compressed": 35,
+      "compression_ratio": 0.9459876543209876
+    }
+  ],
+  "summary": {
+    "total_raw_tokens": 9584,
+    "total_compressed_tokens": 499,
+    "overall_compression_ratio": 0.9479340567612687
+  }
+}

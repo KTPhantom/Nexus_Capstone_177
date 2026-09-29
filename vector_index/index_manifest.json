@@ -1,0 +1,101 @@
+{
+  "components": {
+    "shopkeeper/BarcodeScannerInput": {
+      "file_path": "C:/Users/Asus/Desktop/Capstone/registry/shopkeeper/BarcodeScannerInput.tsx",
+      "raw_code_sha256": "729333ab18c3e880f08d180beff47df1346f53bedc1bf88fe1c44a8e4dd8f56a",
+      "semantic_sha256": "be4dcade5617c9451774eac9385d6634a96389a81a1f50e49dce4a77b7c07e68",
+      "last_indexed_at": "2026-09-27T11:58:41.227832+00:00"
+    },
+    "shopkeeper/CustomerUdharKhata": {
+      "file_path": "C:/Users/Asus/Desktop/Capstone/registry/shopkeeper/CustomerUdharKhata.tsx",
+      "raw_code_sha256": "db6913626a31a2dbd96f430b5018ed5b3f4a5178cb6af21711e5c92b66398250",
+      "semantic_sha256": "d8acf3269563a2d6846ac479160693b441dfc67c405705224b14c1e2f1d5fa33",
+      "last_indexed_at": "2026-09-27T11:57:33.498501+00:00"
+    },
+    "shopkeeper/DailyCashLedger": {
+      "file_path": "C:/Users/Asus/Desktop/Capstone/registry/shopkeeper/DailyCashLedger.tsx",
+      "raw_code_sha256": "26492f02b5cf1f7e5ab8beeaaad1233a5d5c8c8031ebc3937066bb172f5735ab",
+      "semantic_sha256": "05f46730c00dea9dff61c9462d5bec7e81cdaddde52e6fbc8ee9e65a99fd7c13",
+      "last_indexed_at": "2026-09-27T11:58:41.274050+00:00"
+    },
+    "shopkeeper/DailySalesReceipt": {
+      "file_path": "C:/Users/Asus/Desktop/Capstone/registry/shopkeeper/DailySalesReceipt.tsx",
+      "raw_code_sha256": "b469591a1385554f947a1bfdb8766a994168017d96f8c1f0df25d24d41b52a59",
+      "semantic_sha256": "3ff2ff4deaa270e0af438bbbff619970edb7cf5afbc605d73198bd4c73f92496",
+      "last_indexed_at": "2026-09-27T11:57:13.359533+00:00"
+    },
+    "shopkeeper/ExpiryDateAlerts": {
+      "file_path": "C:/Users/Asus/Desktop/Capstone/registry/shopkeeper/ExpiryDateAlerts.tsx",
+      "raw_code_sha256": "11e8422c66c977ccd28bcbc44bad5966f6d1f7a74cbfd76054292d26481e0ff9",
+      "semantic_sha256": "fe6791cf25e7e04e4612aa341e0378e27ce923470670a1e83d6cd45ec6be6f17",
+      "last_indexed_at": "2026-09-27T11:57:13.403661+00:00"
+    },
+    "shopkeeper/InventoryStockTable": {
+      "file_path": "C:/Users/Asus/Desktop/Capstone/registry/shopkeeper/InventoryStockTable.tsx",
+      "raw_code_sha256": "adbfe07ac19d22d614c96ae23092eebc4664f6f72f432111573a061ffe898dbc",
+      "semantic_sha256": "4741fea1cf11006ad79e6ebf6663e6fa8611df11ab17cf329538dc4cf45e1702",
+      "last_indexed_at": "2026-09-27T11:58:41.319362+00:00"
+    },
+    "shopkeeper/ProfitMarginCalculator": {
+      "file_path": "C:/Users/Asus/Desktop/Capstone/registry/shopkeeper/ProfitMarginCalculator.tsx",
+      "raw_code_sha256": "d51ab5b26627baf296087cb2daab7e4af813afe6db68ad3772df513a51fcbbcf",
+      "semantic_sha256": "9669659f07c3522e9eb0ecdd11829ef0fa15b30f5abc56c67b60028b9eb4666c",
+      "last_indexed_at": "2026-09-27T11:58:41.367122+00:00"
+    },
+    "shopkeeper/SupplierContactList": {
+      "file_path": "C:/Users/Asus/Desktop/Capstone/registry/shopkeeper/SupplierContactList.tsx",
+      "raw_code_sha256": "157c7ef46031dc523632ad29c42b75acea13d5aac50c02b432cf400aeadcc20c",
+      "semantic_sha256": "4ba9f03df8084f04fb3b227023bf31f8cb3128c0304e8de44dde464d3493ff8d",
+      "last_indexed_at": "2026-09-27T11:58:41.414981+00:00"
+    },
+    "student/AssignmentTracker": {
+      "file_path": "C:/Users/Asus/Desktop/Capstone/registry/student/AssignmentTracker.tsx",
+      "raw_code_sha256": "f673cd70b0eac665edf7ca501bc216fcc934eb82159b2fc18d4fc351e1f4c7d6",
+      "semantic_sha256": "d117db2add9df1f546a39a5e0215f1f30339157d6722ebc7446647d67d0062a5",
+      "last_indexed_at": "2026-09-27T11:58:41.463374+00:00"
+    },
+    "student/AttendanceTracker": {
+      "file_path": "C:/Users/Asus/Desktop/Capstone/registry/student/AttendanceTracker.tsx",
+      "raw_code_sha256": "e7c6d20dc5defbf09eabef9e782c1b55b9a2a362bf15afa411d77153fd4c33f2",
+      "semantic_sha256": "283c9c88fa55b0e9737a64222f68feb5b83a9aae58bb33d58e97ee6c19188b39",
+      "last_indexed_at": "2026-09-27T11:57:13.500384+00:00"
+    },
+    "student/CitationGenerator": {
+      "file_path": "C:/Users/Asus/Desktop/Capstone/registry/student/CitationGenerator.tsx",
+      "raw_code_sha256": "9171204bc524f8a2c35e0dacb79e5c6e186852b48dc3832622d78cbec131f583",
+      "semantic_sha256": "17aa38ec1afa94381faba13e3fedd60e69ccd1a1fea80bc8aab219206a962981",
+      "last_indexed_at": "2026-09-27T11:57:13.545191+00:00"
+    },
+    "student/FlashcardDeck": {
+      "file_path": "C:/Users/Asus/Desktop/Capstone/registry/student/FlashcardDeck.tsx",
+      "raw_code_sha256": "3b304e9bd33578166fed29a98694efdbcf90a00abccd3d8ecbd89c638807396f",
+      "semantic_sha256": "379a8a5e2beae7830d09d6b1a89fc9a33a9157285ebc275f852ec9a5f9c63a7a",
+      "last_indexed_at": "2026-09-27T11:56:54.298482+00:00"
+    },
+    "student/FormulaSheet": {
+      "file_path": "C:/Users/Asus/Desktop/Capstone/registry/student/FormulaSheet.tsx",
+      "raw_code_sha256": "1d1fd8962a77897a13399dabfca6830229f1dfa8657e15a463869f2faf9507f5",
+      "semantic_sha256": "467710f3725662f2818dacc6e58abea9ec4fce7ed5f7f5ad39bc26ca7cf278c8",
+      "last_indexed_at": "2026-09-27T11:57:33.793111+00:00"
+    },
+    "student/GradeTracker": {
+      "file_path": "C:/Users/Asus/Desktop/Capstone/registry/student/GradeTracker.tsx",
+      "raw_code_sha256": "64dbf2c3c82cbe3a828d8ee2b4057ea342e3a503f66eebc851980a40a11c7d17",
+      "semantic_sha256": "c0d01028732d4c54afa513e0a6327be3db824e0f35624836c00e0f63272dafa2",
+      "last_indexed_at": "2026-09-27T11:57:33.848383+00:00"
+    },
+    "student/NotesEditor": {
+      "file_path": "C:/Users/Asus/Desktop/Capstone/registry/student/NotesEditor.tsx",
+      "raw_code_sha256": "9ba9d3ee1e0d030e40e22515a1648853e34f33fcb6b26e6ca0f3eca220c0bd34",
+      "semantic_sha256": "14da759baeb4de2fb1245d70c349da4a9e29b4e48f55ad13bed56459abeab7a6",
+      "last_indexed_at": "2026-09-27T11:58:41.513229+00:00"
+    },
+    "student/PomodoroTimer": {
+      "file_path": "C:/Users/Asus/Desktop/Capstone/registry/student/PomodoroTimer.tsx",
+      "raw_code_sha256": "07b45a1cdfbc8e4445943920468d103c2a441be08f92bde3216e77497ee65768",
+      "semantic_sha256": "e8cd8a88c57c5e138393118975426c48598859e3732a52acffc70c6db4772e86",
+      "last_indexed_at": "2026-09-27T11:40:52.542594+00:00"
+    }
+  },
+  "last_run": "2026-09-27T11:59:01.876297+00:00"
+}
