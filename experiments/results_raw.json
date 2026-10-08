@@ -1,0 +1,196 @@
+[
+  {
+    "scenario_id": "STU-01",
+    "system": "Naive",
+    "prompt_tokens": 9613,
+    "selected_tools": [],
+    "schema_conformance_rate": 0.0,
+    "latency_ms": 7198.939085006714,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0
+  },
+  {
+    "scenario_id": "STU-01",
+    "system": "ReAct",
+    "prompt_tokens": 19053,
+    "selected_tools": [],
+    "schema_conformance_rate": 0.5,
+    "latency_ms": 5353.445768356323,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0
+  },
+  {
+    "scenario_id": "STU-01",
+    "system": "Nexus",
+    "prompt_tokens": 499,
+    "selected_tools": [
+      "FlashcardDeck",
+      "GradeTracker"
+    ],
+    "schema_conformance_rate": 1.0,
+    "latency_ms": 8219.374656677246,
+    "precision": 0.5,
+    "recall": 0.5,
+    "f1": 0.5
+  },
+  {
+    "scenario_id": "STU-02",
+    "system": "Naive",
+    "prompt_tokens": 9613,
+    "selected_tools": [],
+    "schema_conformance_rate": 0.0,
+    "latency_ms": 7489.393711090088,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0
+  },
+  {
+    "scenario_id": "STU-02",
+    "system": "ReAct",
+    "prompt_tokens": 19053,
+    "selected_tools": [],
+    "schema_conformance_rate": 0.5,
+    "latency_ms": 2016.4589881896973,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0
+  },
+  {
+    "scenario_id": "STU-02",
+    "system": "Nexus",
+    "prompt_tokens": 499,
+    "selected_tools": [
+      "FlashcardDeck",
+      "FormulaSheet"
+    ],
+    "schema_conformance_rate": 1.0,
+    "latency_ms": 7352.902889251709,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+  },
+  {
+    "scenario_id": "SHP-01",
+    "system": "Naive",
+    "prompt_tokens": 9613,
+    "selected_tools": [
+      "BarcodeScannerInput"
+    ],
+    "schema_conformance_rate": 0.0,
+    "latency_ms": 37970.03531455994,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0
+  },
+  {
+    "scenario_id": "SHP-01",
+    "system": "ReAct",
+    "prompt_tokens": 19053,
+    "selected_tools": [
+      "BarcodeScannerInput"
+    ],
+    "schema_conformance_rate": 1.0,
+    "latency_ms": 26295.656204223633,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0
+  },
+  {
+    "scenario_id": "SHP-01",
+    "system": "Nexus",
+    "prompt_tokens": 499,
+    "selected_tools": [
+      "InventoryStockTable",
+      "ExpiryDateAlerts"
+    ],
+    "schema_conformance_rate": 1.0,
+    "latency_ms": 6885.496139526367,
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1": 0.6666666666666666
+  },
+  {
+    "scenario_id": "SHP-06",
+    "system": "Naive",
+    "prompt_tokens": 9613,
+    "selected_tools": [
+      "BarcodeScannerInput"
+    ],
+    "schema_conformance_rate": 0.0,
+    "latency_ms": 15158.668041229248,
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1": 0.6666666666666666
+  },
+  {
+    "scenario_id": "SHP-06",
+    "system": "ReAct",
+    "prompt_tokens": 19053,
+    "selected_tools": [
+      "BarcodeScannerInput"
+    ],
+    "schema_conformance_rate": 0.5,
+    "latency_ms": 22463.59872817993,
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1": 0.6666666666666666
+  },
+  {
+    "scenario_id": "SHP-06",
+    "system": "Nexus",
+    "prompt_tokens": 499,
+    "selected_tools": [
+      "BarcodeScannerInput",
+      "DailyCashLedger",
+      "Dimensions-DailySalesReceipt"
+    ],
+    "schema_conformance_rate": 1.0,
+    "latency_ms": 8549.12519454956,
+    "precision": 0.3333333333333333,
+    "recall": 0.5,
+    "f1": 0.4
+  },
+  {
+    "scenario_id": "MIX-01",
+    "system": "Naive",
+    "prompt_tokens": 9613,
+    "selected_tools": [
+      "BarcodeScannerInput",
+      "CustomerUdharKhata"
+    ],
+    "schema_conformance_rate": 0.0,
+    "latency_ms": 22669.962644577026,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0
+  },
+  {
+    "scenario_id": "MIX-01",
+    "system": "ReAct",
+    "prompt_tokens": 19053,
+    "selected_tools": [
+      "BarcodeScannerInput"
+    ],
+    "schema_conformance_rate": 1.0,
+    "latency_ms": 23532.10687637329,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0
+  },
+  {
+    "scenario_id": "MIX-01",
+    "system": "Nexus",
+    "prompt_tokens": 499,
+    "selected_tools": [
+      "DailyCashLedger",
+      "GradeTracker"
+    ],
+    "schema_conformance_rate": 1.0,
+    "latency_ms": 9779.37626838684,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+  }
+]
